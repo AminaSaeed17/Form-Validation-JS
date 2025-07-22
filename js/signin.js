@@ -22,7 +22,7 @@ function login() {
     if (checkData(userEnter)) {
         alertMsg.classList.add("d-none");
         console.log("done");
-        window.location.href = '../home.html'; 
+        window.location.href = './home.html'; 
     } else {
         alertMsg.classList.remove("d-none");
         console.log("wrong");
