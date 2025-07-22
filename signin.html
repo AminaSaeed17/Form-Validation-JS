@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="sign-in text-center">
+            <h1 class="fw-bold">Smart Login System</h1>
+            <form action="#">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="userEmailSignin" placeholder="Enter Your Email">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="userPasswordSignin" placeholder="Enter Your Password">
+                </div>
+                <p class="alert alert-danger text-dark d-none" id="alert">Somthing Wrong</p>
+                <button class="btn w-100" id="signin">Sign In</button>
+            </form>
+            <p>Don't have an account? <a href="index.html">SignUp</a></p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signin.js"></script>
+</body>
+</html>

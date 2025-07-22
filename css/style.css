@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(../imgs/mainbg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sign-up {
+    width: 70%;
+    padding: 50px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px #000000;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+.sign-up h1 {
+    margin-bottom: 30px;
+    color: white		;
+}
+.sign-up .btn {
+    background-color: #4E2925;
+    border: 1px solid #4E2925	;
+    color: white;
+}
+.sign-up .btn:hover {
+    background-color: transparent;
+    color: white;
+}
+.sign-up p {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.sign-up p a {
+    text-decoration: none;
+    color: white;
+}
+.sign-up p a:hover {
+    color: #4E2925;
+}
+
+/* //////////////////////////// */
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(../imgs/mainbg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sign-in {
+    width: 70%;
+    padding: 50px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px #000000;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+.sign-in h1 {
+    margin-bottom: 30px;
+    color: white		;
+}
+.sign-in .btn {
+    background-color: #4e2925;
+    border: 1px solid #4e2925	;
+    color: white;
+}
+.sign-in .btn:hover {
+    background-color: transparent;
+    color: white;
+}
+.sign-in p {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.sign-in p a {
+    text-decoration: none;
+    color: white;
+}
+.sign-in p a:hover {
+    color: #4e2925;
+}
+
+/* ////////////////////////////////// */
+
+
+
+
+
